@@ -1,0 +1,22 @@
+{
+  "name": "AXTools",
+  "version": "0.1.0",
+  "summary": "A short description of AXTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/952303557@qq.com/AXTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "952303557@qq.com": "952303557@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/952303557@qq.com/AXTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "AXTools/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - AXTools (0.1.0)
+
+DEPENDENCIES:
+  - AXTools (from `../`)
+
+EXTERNAL SOURCES:
+  AXTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AXTools: d88550b4feb8a060254005460cb19d1df7b8b35d
+
+PODFILE CHECKSUM: 50c5bfc370442650a3e5dc3a6d268a782f93c8a9
+
+COCOAPODS: 1.9.1

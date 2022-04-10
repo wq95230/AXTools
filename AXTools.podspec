@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AXTools'
-  s.version          = '0.1.0'
+  s.version          = '0.1'
   s.summary          = 'A short description of AXTools.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/952303557@qq.com/AXTools'
+  s.homepage         = 'https://github.com/wq95230/AXTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '952303557@qq.com' => '952303557@qq.com' }
-  s.source           = { :git => 'https://github.com/952303557@qq.com/AXTools.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/wq95230/AXTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
