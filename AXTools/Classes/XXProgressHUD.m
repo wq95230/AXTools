@@ -22,7 +22,7 @@
 
 + (void)showLoadingMessage:(nullable NSString *)message
 {
-    if (isEmptyStr(message)) {
+    if (message.length == 0) {
         message = @"Loading";
     }
     [MBProgressHUD ag_showPlainText:message view:nil];
@@ -30,7 +30,7 @@
 
 + (void)showLoadingMessage:(nullable NSString *)message with:(nullable UIView *)view
 {
-    if (isEmptyStr(message)) {
+    if (message.length == 0) {
         message = @"Loading";
     }
     [MBProgressHUD ag_showPlainText:message view:view];
@@ -39,10 +39,9 @@
 //======显示文字
 + (void)showMessage:(NSString *)message
 {
-    if (isEmptyStr(message)) {
+    if (message.length == 0) {
         message = @"Loading";
-    }
-    [MBProgressHUD hud_showMessageWith:message view:nil];
+    }    [MBProgressHUD hud_showMessageWith:message view:nil];
 }
 
 + (void)hide
