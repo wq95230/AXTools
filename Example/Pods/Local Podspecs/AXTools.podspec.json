@@ -1,9 +1,9 @@
 {
   "name": "AXTools",
-  "version": "0.1.0",
+  "version": "0.2",
   "summary": "A short description of AXTools.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/952303557@qq.com/AXTools",
+  "homepage": "https://github.com/wq95230/AXTools",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "952303557@qq.com": "952303557@qq.com"
   },
   "source": {
-    "git": "https://github.com/952303557@qq.com/AXTools.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/wq95230/AXTools.git",
+    "tag": "0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AXTools/Classes/**/*"
+  "source_files": "AXTools/Classes/**/*",
+  "dependencies": {
+    "MBProgressHUD": [
+      "1.2.0"
+    ]
+  }
 }
