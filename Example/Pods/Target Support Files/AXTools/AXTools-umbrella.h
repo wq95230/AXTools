@@ -10,8 +10,7 @@
 #endif
 #endif
 
-#import "MBProgressHUD+AGHud.h"
-#import "XXProgressHUD.h"
+#import "YICTool.h"
 
 FOUNDATION_EXPORT double AXToolsVersionNumber;
 FOUNDATION_EXPORT const unsigned char AXToolsVersionString[];
