@@ -22,7 +22,7 @@ pod 'AXTools'
 
 ## Author
 
-952303557@qq.com, 952303557@qq.com
+Liujf
 
 ## License
 
