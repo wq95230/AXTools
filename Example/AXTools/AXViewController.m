@@ -7,7 +7,7 @@
 //
 
 #import "AXViewController.h"
-//#import "XXProgressHUD.h"
+#import "XXProgressHUD.h"
 
 @interface AXViewController ()
 
@@ -21,7 +21,7 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-//        [XXProgressHUD showMessage:@"yyyy"];
+        [XXProgressHUD showMessage:@"yyyy"];
     });
     
 }
