@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AXTools'
-  s.version          = '0.7'
+  s.version          = '1.0.1'
   s.summary          = '一些常用组件 AXTools'
 
 

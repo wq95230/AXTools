@@ -94,13 +94,13 @@
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXProgressHUD.m; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.m; sourceTree = "<group>"; };
 		87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+AGHud.h"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.h"; sourceTree = "<group>"; };
-		8B8B9CFF8D54FC2C581DA6FD23F5B948 /* AXTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AXTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8B8B9CFF8D54FC2C581DA6FD23F5B948 /* AXTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AXTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXToolsHeader.h; path = AXTools/Classes/AXToolsHeader.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE31DF0B787424228EFCFCBF516B450 /* Pods-AXTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXTools_Tests.modulemap"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A4523FF62B0550E75CA21F20929D97F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A4523FF62B0550E75CA21F20929D97F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A4D98E5B73860EB0517D966F08E60839 /* AXTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXTools; path = AXTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCFA69F882851F41B8B1EB9C4BD388C /* Pods-AXTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+AGHud.m"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.m"; sourceTree = "<group>"; };
@@ -111,7 +111,7 @@
 		C31A7A58DD693ED17C205773E30B947B /* Pods-AXTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C410BF1E4CB83FF65CB901EB02C42327 /* Pods-AXTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Tests-Info.plist"; sourceTree = "<group>"; };
 		C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSuccessView.m; path = AXTools/Classes/XXProgressHUD/MBSuccessView.m; sourceTree = "<group>"; };
-		C7B660E055AA5626A24D7B7C3E45BE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C7B660E055AA5626A24D7B7C3E45BE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C89C09DBDC465802B0811513A04192F6 /* Pods-AXTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 		CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-umbrella.h"; sourceTree = "<group>"; };
 		CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXProgressHUD.h; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.h; sourceTree = "<group>"; };
@@ -250,7 +250,6 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
-			name = MBProgressHUD;
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
@@ -318,12 +317,12 @@
 		EFC0146DB6D5841F3E93606FC18E9D18 /* XXProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
+				CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */,
+				854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */,
 				87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */,
 				AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */,
 				3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */,
 				C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */,
-				CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */,
-				854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */,
 			);
 			name = XXProgressHUD;
 			sourceTree = "<group>";
@@ -937,8 +936,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
