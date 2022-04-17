@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AXTools'
-  s.version          = '0.5'
+  s.version          = '0.6'
   s.summary          = '一些常用组件 AXTools'
 
 
@@ -17,8 +17,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-#  s.source_files = 'AXTools/Classes/**/*'
-   s.source_files = 'AXTools/Classes/AXToolsHeader.h'
+  s.source_files = 'AXTools/Classes/**/*'
+#   s.source_files = 'AXTools/Classes/AXToolsHeader.h'
   
   # s.resource_bundles = {
   #   'AXTools' => ['AXTools/Assets/*.png']
@@ -26,16 +26,15 @@ TODO: Add long description of the pod here.
  
   s.public_header_files = 'AXTools/Classes/AXToolsHeader.h'
   s.frameworks = 'UIKit'
-#  s.dependency 'MBProgressHUD', '1.2.0'
 
 
    s.subspec 'XXProgressHUD' do |ss|
-       ss.source_files = 'AXTools/Classes/XXProgressHUD/*.{h,m}'
+       ss.source_files = 'AXTools/Classes/XXProgressHUD/**/*'
        ss.dependency 'MBProgressHUD', '1.2.0'
    end
 
    s.subspec 'YCTool' do |ss|
-       ss.source_files = 'AXTools/Classes/YCTool/*.{h,m}'
+       ss.source_files = 'AXTools/Classes/YCTool/**/*'
    end
 
 end
