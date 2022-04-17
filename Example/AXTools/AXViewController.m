@@ -7,7 +7,7 @@
 //
 
 #import "AXViewController.h"
-#import "XXProgressHUD.h"
+#import "AXToolsHeader.h"
 
 @interface AXViewController ()
 
@@ -24,6 +24,9 @@
         [XXProgressHUD showMessage:@"yyyy"];
     });
     
+    NSDictionary *aaa = @{@"name":@"刘健是多少"};
+    NSString *yand = [YICTool dictionaryToJSONwith:aaa];
+    NSLog(@"result = %@",yand);
 }
 
 

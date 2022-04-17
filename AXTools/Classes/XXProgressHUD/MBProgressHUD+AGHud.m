@@ -6,9 +6,10 @@
 //
 
 #import "MBProgressHUD+AGHud.h"
-#import <objc/runtime.h>
+//#import <objc/runtime.h>
+#import "MBSuccessView.h"
 
-static NSString *titleKey = @"titleKey";
+//static NSString *titleKey = @"titleKey";
 
 @implementation MBProgressHUD (AGHud)
 
@@ -17,36 +18,58 @@ static NSString *titleKey = @"titleKey";
 /// 显示文字和hud
 /// @param text text description
 /// @param view view description
-+ (void)ag_showPlainText:(NSString *)text view:(nullable UIView *)view
++ (void)ag_showPlainText:(NSString *)text
+                    view:(nullable UIView *)view
 {
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
-//    MyApp.hudView = view;
-    
+
     [MBProgressHUD hideHUDForView:view animated:NO];
-    // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
-    
 //    hud.mode = MBProgressHUDModeText;
+    //内容颜色
     hud.contentColor = UIColor.whiteColor;
     hud.mode = MBProgressHUDModeIndeterminate;
     
     hud.label.text = text;
     hud.label.textColor = UIColor.whiteColor;
     hud.label.numberOfLines = 0;
-//    hud.userInteractionEnabled = NO;
+
     //设置为这个才可以改变方框的背景色
     hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-    hud.bezelView.backgroundColor = [self colorWithHexString:@"484E5E" alpha:1.0];
-//    hud.minShowTime = 20.0; //最长显示时间
+    hud.bezelView.backgroundColor = [self ag_colorWithHexString:@"484E5E" alpha:1.0];
+//    hud.minShowTime = 1.0; //最小显示时间
     // 隐藏时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
-    [hud hideAnimated:YES afterDelay:2];
+    [hud hideAnimated:YES afterDelay:30.0];
 }
 
+/// 只显示Loading
+/// @param view view description
++ (void)ag_showLoadingToView:(nullable UIView *)view
+{
+    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
+    
+    [MBProgressHUD hideHUDForView:view animated:NO];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+//    hud.mode = MBProgressHUDModeText;
+    //内容颜色
+    hud.contentColor = UIColor.whiteColor;
+    hud.mode = MBProgressHUDModeIndeterminate;
+
+    //设置为这个才可以改变方框的背景色
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [self ag_colorWithHexString:@"484E5E" alpha:1.0];
+    //    hud.minShowTime = 1.0; //最小显示时间
+    // 隐藏时候从父控件中移除
+    hud.removeFromSuperViewOnHide = YES;
+    [hud hideAnimated:YES afterDelay:30.0];
+}
 
 /// 显示文字内容
 /// @param message message description
-+ (void)hud_showMessageWith:(NSString *)message view:(nullable UIView *)view
++ (void)ag_showMessageWith:(NSString *)message
+                       view:(nullable UIView *)view
+                 afterDelay:(NSTimeInterval)delay
 {
     if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
     
@@ -54,7 +77,6 @@ static NSString *titleKey = @"titleKey";
     // 快速显示一个提示信息
     MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
     
-//    hud.mode = MBProgressHUDModeText;
     hud.contentColor = UIColor.whiteColor;
     hud.mode = MBProgressHUDModeText;
     
@@ -64,29 +86,61 @@ static NSString *titleKey = @"titleKey";
 //    hud.userInteractionEnabled = NO;
     //设置为这个才可以改变方框的背景色
     hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
-    hud.bezelView.backgroundColor = [self colorWithHexString:@"484E5E" alpha:1.0];//;
+    hud.bezelView.backgroundColor = [self ag_colorWithHexString:@"484E5E" alpha:1.0];
+    //    hud.minShowTime = 1.0; //最小显示时间
     // 隐藏时候从父控件中移除
     hud.removeFromSuperViewOnHide = YES;
-    [hud hideAnimated:YES afterDelay:2];
+    [hud hideAnimated:YES afterDelay:delay];
 }
 
-+ (void)agHiden
+/// 显示成功打钩
+/// @param message message description
+/// @param view view description
++ (void)ag_showSuccessWithMessage:(nullable NSString *)message
+                             view:(nullable UIView *)view
+{
+    if (view == nil) view = [[UIApplication sharedApplication].windows lastObject];
+    [MBProgressHUD hideHUDForView:view animated:NO];
+    
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    // Set the custom view mode to show any view.
+    hud.mode = MBProgressHUDModeCustomView;
+    // Set an image view with a checkmark.
+    
+    MBSuccessView *suc = [[MBSuccessView alloc] initWithFrame:CGRectMake(0, 0, 40, 40)];
+    suc.wj_animationType = WJAnimationTypeSuccess;
+    hud.customView = suc;
+
+    if (message.length > 0) {
+        hud.label.text = message;
+        hud.label.textColor = UIColor.whiteColor;
+        hud.label.numberOfLines = 0;
+    }
+    
+    // 隐藏时候从父控件中移除
+    hud.bezelView.style = MBProgressHUDBackgroundStyleSolidColor;
+    hud.bezelView.backgroundColor = [self ag_colorWithHexString:@"484E5E" alpha:1.0];
+    hud.removeFromSuperViewOnHide = YES;
+    [hud hideAnimated:YES afterDelay:1.5];
+}
+
++ (void)dismiss
 {
     UIView *view = [[UIApplication sharedApplication].windows lastObject];
     if (view) {
         [MBProgressHUD hideHUDForView:view animated:NO];
     }
-    
 }
 
--(void)setContenV:(UIView *)contenV
-{
-    objc_setAssociatedObject(self, &titleKey,contenV, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
-}
 
--(UIView *)contenV{
-    return objc_getAssociatedObject(self, &titleKey);
-}
+//-(void)setContenV:(UIView *)contenV
+//{
+//    objc_setAssociatedObject(self, &titleKey,contenV, OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+//}
+//
+//-(UIView *)contenV{
+//    return objc_getAssociatedObject(self, &titleKey);
+//}
 
 /**
  16进制颜色转换为UIColor
@@ -95,7 +149,7 @@ static NSString *titleKey = @"titleKey";
  @param opacity 透明度
  @return 16进制字符串对应的颜色
  */
-+ (UIColor *)colorWithHexString:(NSString *)hexColor alpha:(float)opacity
++ (UIColor *)ag_colorWithHexString:(NSString *)hexColor alpha:(float)opacity
 {
     NSString * cString = [[hexColor stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] uppercaseString];
 
@@ -134,7 +188,6 @@ static NSString *titleKey = @"titleKey";
                             blue:((float)b / 255.0f)
                            alpha:opacity];
 }
-
 
 -(void)dealloc
 {

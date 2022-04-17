@@ -1,6 +1,10 @@
 PODS:
   - AXTools (0.5):
+    - AXTools/XXProgressHUD (= 0.5)
+    - AXTools/YCTool (= 0.5)
+  - AXTools/XXProgressHUD (0.5):
     - MBProgressHUD (= 1.2.0)
+  - AXTools/YCTool (0.5)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
@@ -15,7 +19,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AXTools: b92e96c1df5e3d75e54d3f8c4ab07488256c25e4
+  AXTools: 98c1a6497c8c2a2a7a5ca6a3ea3c3e8675967288
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 50c5bfc370442650a3e5dc3a6d268a782f93c8a9

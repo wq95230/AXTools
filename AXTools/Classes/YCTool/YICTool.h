@@ -12,9 +12,9 @@ NS_ASSUME_NONNULL_BEGIN
 @interface YICTool : NSObject
 
 
-/// 字典转json字符串
+/// 字典转json中文字符串
 /// @param dic dic
-+(NSString *)dictionaryToJSONwith:(NSDictionary *)dic;
++ (NSString *)dictionaryToJSONwith:(NSDictionary *)dic;
 
 @end
 

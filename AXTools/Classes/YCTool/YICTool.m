@@ -10,7 +10,7 @@
 @implementation YICTool
 
 ///字典转json
-+(NSString *)dictionaryToJSONwith:(NSDictionary *)dic
++ (NSString *)dictionaryToJSONwith:(NSDictionary *)dic
 {
     if (!dic) {
         return @"";
