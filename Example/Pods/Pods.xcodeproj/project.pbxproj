@@ -8,30 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		026E11302641C22E36BD1A38C2634B02 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
-		066564E0EE3803ABEA6903B91A48A31D /* XXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 485EE308D1A76A605713B8241FD3E353 /* XXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		108E0F6D610A1413A48F271E71F42FD0 /* AXTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F6A5588F508DBB1B9BF13A147C7D5AF /* AXTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1294EC68E8F62D2E36EAAED738DC348B /* XXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 23599F22A6D5E128567D86B7D41835DF /* XXProgressHUD.m */; };
 		17BD89B7E0B0108E4D6A7F2C603F6772 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
-		1805698E173F071B41F56F8BE2290B66 /* YICTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F788C3E950C72B4AEE93DECC38DC876 /* YICTool.m */; };
 		1A9423FDABD28F529506FD4E9AE42338 /* Pods-AXTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F30561E584A406364B8EC95716BAED0 /* Pods-AXTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C1781085F259D345BDB65C2C7982A4A /* AXToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EFEDE288392D90B3B8AA7E944BA4065 /* AXToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2483121CFF3335EFB1A43BBFB4A9FFCE /* XXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */; };
 		2AC562D416E040EA37BA460B1EA3E516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
+		2E67D4C81F9FBBD08E3C74A612E31975 /* MBProgressHUD+AGHud.m in Sources */ = {isa = PBXBuildFile; fileRef = AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */; };
 		3ABE23E963B84ADBC89381BD0EC85E41 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		41E312949B20DA29B8715B7B4FEB0691 /* MBSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F561384170553934566E0A7FF8DE8F5 /* MBSuccessView.m */; };
-		585686A35E21D1E9F8B9F65553F8DC76 /* AXTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 442B4E90CD1166EFBED831C9128300C8 /* AXTools-dummy.m */; };
+		3D38C630E74A79B11689B05E954AB64F /* XXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489F276889791C1B71BFD72DAA678585 /* YICTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1327109B0FDCCCA413107A8D6C0B76C0 /* YICTool.m */; };
+		48C3027EEDA6A55E6824B15CB800D61A /* AXTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E1D49567D38F79FB8BE6F2EDD48A46 /* AXTools-dummy.m */; };
+		5EC624E7E8DF284743B35C3F50040CDC /* MBSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */; };
 		5F42CBC37D647101AC042CD32874E728 /* Pods-AXTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D3F4AE62BF36A9D19A3CFEA6C2126E /* Pods-AXTools_Tests-dummy.m */; };
 		6DD457DBDE74C724C09F5AB3A85E50B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		715A2A5324927FB0EF5691FA8DCBEE9A /* Pods-AXTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DA7CD3389390CDA971D73F32CEE861 /* Pods-AXTools_Example-dummy.m */; };
-		79E09EFE774855C6FEC58F011C00DDFB /* MBProgressHUD+AGHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F4702B41F8FAC3E70E52B6E82DEA7C7 /* MBProgressHUD+AGHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79AF9D20E691B9DE777DAE94A73A777E /* YICTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E69258C07A668C226BE545D0D65D0E /* YICTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FA353BC289F1643AA108EE8F17DFB2F /* Pods-AXTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89C09DBDC465802B0811513A04192F6 /* Pods-AXTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98329E4AD77240F7CE76E31E2060670D /* AXTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2D10BE1FD026833C918BFF27E11BEA8 /* AXToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7A3A6F17A3565389D4CD7AD84E3609C /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A88763E163B12C7417C5C034D95DD346 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */; };
-		AF3A8BD7FD7CA5DADC7C4E06481691AA /* MBSuccessView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8DBA0A0048721FA9FA2835ABD5768AAD /* MBSuccessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E00E1DB2D380390803BBE658AA1E8054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
 		E01F9EAD190E3A94E27CD3561DD15ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		E38798EAC1EEC1DD419E9F87CB0D152D /* MBProgressHUD+AGHud.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3E193DFE2A7AA312B29513EE8E5C0E /* MBProgressHUD+AGHud.m */; };
+		EC8D6C05630C8B485681DE5C47E8B621 /* MBProgressHUD+AGHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF4E577EE7B0930F53328B9C6A47025 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
-		F6B51966ED226ACF70CC06C9FD0FBD06 /* YICTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E5C9BEA50958FB68BBCC15407F3A23 /* YICTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD606097D85A828BBB60D721371A0233 /* MBSuccessView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE1C75C699935453D259FB40A3F79353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,55 +70,55 @@
 		025A5645726043AC353FF3BE88A77CAA /* Pods-AXTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXTools_Example.modulemap"; sourceTree = "<group>"; };
 		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		05D3F4AE62BF36A9D19A3CFEA6C2126E /* Pods-AXTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		08F6AAEF638B1FBFD1FB8EDF22459135 /* AXTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXTools.modulemap; sourceTree = "<group>"; };
-		0EFEDE288392D90B3B8AA7E944BA4065 /* AXToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXToolsHeader.h; path = AXTools/Classes/AXToolsHeader.h; sourceTree = "<group>"; };
-		0F4702B41F8FAC3E70E52B6E82DEA7C7 /* MBProgressHUD+AGHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+AGHud.h"; sourceTree = "<group>"; };
+		0E26A7507B4086C3EB1BA4FE92EEE877 /* AXTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-prefix.pch"; sourceTree = "<group>"; };
 		12A7E56D3DFF8E8800FA6F8A494C155B /* Pods-AXTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1D197613499CDCC26E50E40C313C65A4 /* AXTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.release.xcconfig; sourceTree = "<group>"; };
-		1F085CAAF8CC2B6622B32107CB35BBEC /* AXTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXTools-Info.plist"; sourceTree = "<group>"; };
-		22E5C9BEA50958FB68BBCC15407F3A23 /* YICTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YICTool.h; sourceTree = "<group>"; };
-		23599F22A6D5E128567D86B7D41835DF /* XXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XXProgressHUD.m; sourceTree = "<group>"; };
-		2526E4F64A4D45A8A4BFE9BE85EDE3C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1327109B0FDCCCA413107A8D6C0B76C0 /* YICTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YICTool.m; path = AXTools/Classes/YCTool/YICTool.m; sourceTree = "<group>"; };
+		17E1D49567D38F79FB8BE6F2EDD48A46 /* AXTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXTools-dummy.m"; sourceTree = "<group>"; };
+		373FAD0E27C93253C0D1EC8F6916AC50 /* AXTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXTools.modulemap; sourceTree = "<group>"; };
 		3937ABFA9EADDC38EAED48F133DC830B /* Pods-AXTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSuccessView.h; path = AXTools/Classes/XXProgressHUD/MBSuccessView.h; sourceTree = "<group>"; };
 		4316DE03C341E6FA193E2AB2BA2FF6BF /* Pods-AXTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		442B4E90CD1166EFBED831C9128300C8 /* AXTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXTools-dummy.m"; sourceTree = "<group>"; };
-		485EE308D1A76A605713B8241FD3E353 /* XXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XXProgressHUD.h; sourceTree = "<group>"; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		4F788C3E950C72B4AEE93DECC38DC876 /* YICTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YICTool.m; sourceTree = "<group>"; };
-		51A8D77594F441227F20376D8FDA0994 /* AXTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AXTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		5F6A5588F508DBB1B9BF13A147C7D5AF /* AXTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-umbrella.h"; sourceTree = "<group>"; };
 		613BB840AEAD1F74B482C2FD9E5B4F5D /* Pods-AXTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Example-Info.plist"; sourceTree = "<group>"; };
-		62612795B072296B4E3595D8D05E0941 /* AXTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.debug.xcconfig; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		7411A61592E26F7C93D0B1CB008EADD5 /* AXTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-prefix.pch"; sourceTree = "<group>"; };
 		7450133A67F75B32674006C48D80A8E5 /* Pods-AXTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AXTools_Example"; path = Pods_AXTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DA7CD3389390CDA971D73F32CEE861 /* Pods-AXTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXTools_Example-dummy.m"; sourceTree = "<group>"; };
 		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E3D9C6A20B0F90C865CA9F1EB8B549F /* Pods-AXTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F30561E584A406364B8EC95716BAED0 /* Pods-AXTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXTools_Example-umbrella.h"; sourceTree = "<group>"; };
-		7F561384170553934566E0A7FF8DE8F5 /* MBSuccessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBSuccessView.m; sourceTree = "<group>"; };
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXProgressHUD.m; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.m; sourceTree = "<group>"; };
+		87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+AGHud.h"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.h"; sourceTree = "<group>"; };
+		8B8B9CFF8D54FC2C581DA6FD23F5B948 /* AXTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AXTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8DBA0A0048721FA9FA2835ABD5768AAD /* MBSuccessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBSuccessView.h; sourceTree = "<group>"; };
+		8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXToolsHeader.h; path = AXTools/Classes/AXToolsHeader.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE31DF0B787424228EFCFCBF516B450 /* Pods-AXTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXTools_Tests.modulemap"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A4523FF62B0550E75CA21F20929D97F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A4D98E5B73860EB0517D966F08E60839 /* AXTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXTools; path = AXTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABCFA69F882851F41B8B1EB9C4BD388C /* Pods-AXTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+AGHud.m"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.m"; sourceTree = "<group>"; };
+		AD194F5D3882EE801A5289B646D7C792 /* AXTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXTools-Info.plist"; sourceTree = "<group>"; };
+		B3E69258C07A668C226BE545D0D65D0E /* YICTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YICTool.h; path = AXTools/Classes/YCTool/YICTool.h; sourceTree = "<group>"; };
 		B8809DE5932A280FFAD7441E3E34BAA3 /* Pods-AXTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BB5D5C9FE140985CA985937DF323D0CC /* Pods-AXTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AXTools_Tests"; path = Pods_AXTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BD3E193DFE2A7AA312B29513EE8E5C0E /* MBProgressHUD+AGHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+AGHud.m"; sourceTree = "<group>"; };
 		C31A7A58DD693ED17C205773E30B947B /* Pods-AXTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C410BF1E4CB83FF65CB901EB02C42327 /* Pods-AXTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Tests-Info.plist"; sourceTree = "<group>"; };
+		C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSuccessView.m; path = AXTools/Classes/XXProgressHUD/MBSuccessView.m; sourceTree = "<group>"; };
+		C7B660E055AA5626A24D7B7C3E45BE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C89C09DBDC465802B0811513A04192F6 /* Pods-AXTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXTools_Tests-umbrella.h"; sourceTree = "<group>"; };
+		CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-umbrella.h"; sourceTree = "<group>"; };
+		CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXProgressHUD.h; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.h; sourceTree = "<group>"; };
 		CE3FAD2B8FF399B5FE18B8135CDDA7EB /* Pods-AXTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA20CF4B4232880863AEB2BE0DE060A5 /* Pods-AXTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DA351DEE0C58002CF22A9D702C758E69 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DFAF0BA2C620129C7C7BAFD720ABC8CF /* AXTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.release.xcconfig; sourceTree = "<group>"; };
+		EDB74374E14CD9FA06EF4200E649A0FC /* AXTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.debug.xcconfig; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -189,19 +189,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2C0251934E2E75A39B49ADEEA0B65C3E /* Support Files */ = {
+		154DA901D904F8CE5264BF52884D0DD5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				08F6AAEF638B1FBFD1FB8EDF22459135 /* AXTools.modulemap */,
-				442B4E90CD1166EFBED831C9128300C8 /* AXTools-dummy.m */,
-				1F085CAAF8CC2B6622B32107CB35BBEC /* AXTools-Info.plist */,
-				7411A61592E26F7C93D0B1CB008EADD5 /* AXTools-prefix.pch */,
-				5F6A5588F508DBB1B9BF13A147C7D5AF /* AXTools-umbrella.h */,
-				62612795B072296B4E3595D8D05E0941 /* AXTools.debug.xcconfig */,
-				1D197613499CDCC26E50E40C313C65A4 /* AXTools.release.xcconfig */,
+				373FAD0E27C93253C0D1EC8F6916AC50 /* AXTools.modulemap */,
+				17E1D49567D38F79FB8BE6F2EDD48A46 /* AXTools-dummy.m */,
+				AD194F5D3882EE801A5289B646D7C792 /* AXTools-Info.plist */,
+				0E26A7507B4086C3EB1BA4FE92EEE877 /* AXTools-prefix.pch */,
+				CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */,
+				EDB74374E14CD9FA06EF4200E649A0FC /* AXTools.debug.xcconfig */,
+				DFAF0BA2C620129C7C7BAFD720ABC8CF /* AXTools.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AXTools";
+			sourceTree = "<group>";
+		};
+		370AB5D7F52CF9FA15134892054794F7 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B8B9CFF8D54FC2C581DA6FD23F5B948 /* AXTools.podspec */,
+				A4523FF62B0550E75CA21F20929D97F9 /* LICENSE */,
+				C7B660E055AA5626A24D7B7C3E45BE71 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
@@ -212,26 +222,25 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		4E81AA9D2AB96B954EFC0EEF5DD82DCD /* AXTools */ = {
+			isa = PBXGroup;
+			children = (
+				8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */,
+				370AB5D7F52CF9FA15134892054794F7 /* Pod */,
+				154DA901D904F8CE5264BF52884D0DD5 /* Support Files */,
+				EFC0146DB6D5841F3E93606FC18E9D18 /* XXProgressHUD */,
+				FC0385BB1B560033617DA6AA08D2EDDC /* YCTool */,
+			);
+			name = AXTools;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		781C4A396A89AD4B4A254E3B280E0E9F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				ED56F5929D02A2A330C12BC9A00E383A /* AXTools */,
+				4E81AA9D2AB96B954EFC0EEF5DD82DCD /* AXTools */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		78F8A45A413E2C57A871C8014DA1C82B /* XXProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				0F4702B41F8FAC3E70E52B6E82DEA7C7 /* MBProgressHUD+AGHud.h */,
-				BD3E193DFE2A7AA312B29513EE8E5C0E /* MBProgressHUD+AGHud.m */,
-				8DBA0A0048721FA9FA2835ABD5768AAD /* MBSuccessView.h */,
-				7F561384170553934566E0A7FF8DE8F5 /* MBSuccessView.m */,
-				485EE308D1A76A605713B8241FD3E353 /* XXProgressHUD.h */,
-				23599F22A6D5E128567D86B7D41835DF /* XXProgressHUD.m */,
-			);
-			name = XXProgressHUD;
-			path = AXTools/Classes/XXProgressHUD;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -243,16 +252,6 @@
 			);
 			name = MBProgressHUD;
 			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		933CC27509A43567BF423652053F1975 /* YCTool */ = {
-			isa = PBXGroup;
-			children = (
-				22E5C9BEA50958FB68BBCC15407F3A23 /* YICTool.h */,
-				4F788C3E950C72B4AEE93DECC38DC876 /* YICTool.m */,
-			);
-			name = YCTool;
-			path = AXTools/Classes/YCTool;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -307,16 +306,6 @@
 			);
 			sourceTree = "<group>";
 		};
-		D03AD9807F4A0D2F37B1C4A2BF9F7C77 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				51A8D77594F441227F20376D8FDA0994 /* AXTools.podspec */,
-				DA351DEE0C58002CF22A9D702C758E69 /* LICENSE */,
-				2526E4F64A4D45A8A4BFE9BE85EDE3C9 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		E35D3A380748B89DF8B4C06D203FC7A7 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -326,17 +315,17 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		ED56F5929D02A2A330C12BC9A00E383A /* AXTools */ = {
+		EFC0146DB6D5841F3E93606FC18E9D18 /* XXProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				0EFEDE288392D90B3B8AA7E944BA4065 /* AXToolsHeader.h */,
-				D03AD9807F4A0D2F37B1C4A2BF9F7C77 /* Pod */,
-				2C0251934E2E75A39B49ADEEA0B65C3E /* Support Files */,
-				78F8A45A413E2C57A871C8014DA1C82B /* XXProgressHUD */,
-				933CC27509A43567BF423652053F1975 /* YCTool */,
+				87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */,
+				AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */,
+				3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */,
+				C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */,
+				CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */,
+				854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */,
 			);
-			name = AXTools;
-			path = ../..;
+			name = XXProgressHUD;
 			sourceTree = "<group>";
 		};
 		F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */ = {
@@ -350,6 +339,15 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FC0385BB1B560033617DA6AA08D2EDDC /* YCTool */ = {
+			isa = PBXGroup;
+			children = (
+				B3E69258C07A668C226BE545D0D65D0E /* YICTool.h */,
+				1327109B0FDCCCA413107A8D6C0B76C0 /* YICTool.m */,
+			);
+			name = YCTool;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -361,25 +359,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		105B542D9A40CC56E1C63741373F9874 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98329E4AD77240F7CE76E31E2060670D /* AXTools-umbrella.h in Headers */,
+				A2D10BE1FD026833C918BFF27E11BEA8 /* AXToolsHeader.h in Headers */,
+				EC8D6C05630C8B485681DE5C47E8B621 /* MBProgressHUD+AGHud.h in Headers */,
+				FD606097D85A828BBB60D721371A0233 /* MBSuccessView.h in Headers */,
+				3D38C630E74A79B11689B05E954AB64F /* XXProgressHUD.h in Headers */,
+				79AF9D20E691B9DE777DAE94A73A777E /* YICTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3831855E5EF5FD95684EC56579E62880 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3ABE23E963B84ADBC89381BD0EC85E41 /* MBProgressHUD.h in Headers */,
 				A7A3A6F17A3565389D4CD7AD84E3609C /* MBProgressHUD-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C84B258545C1F263C9BE4D959D9A8336 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				108E0F6D610A1413A48F271E71F42FD0 /* AXTools-umbrella.h in Headers */,
-				1C1781085F259D345BDB65C2C7982A4A /* AXToolsHeader.h in Headers */,
-				79E09EFE774855C6FEC58F011C00DDFB /* MBProgressHUD+AGHud.h in Headers */,
-				AF3A8BD7FD7CA5DADC7C4E06481691AA /* MBSuccessView.h in Headers */,
-				066564E0EE3803ABEA6903B91A48A31D /* XXProgressHUD.h in Headers */,
-				F6B51966ED226ACF70CC06C9FD0FBD06 /* YICTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,8 +396,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0AEF00F4D5B3B9BEC3578493D90B62 /* Build configuration list for PBXNativeTarget "AXTools" */;
 			buildPhases = (
-				C84B258545C1F263C9BE4D959D9A8336 /* Headers */,
-				3ECDA9A5591E1DC9DDE5C68AFB0446BA /* Sources */,
+				105B542D9A40CC56E1C63741373F9874 /* Headers */,
+				1EED5D36AE1F20AD193C9588EA065C66 /* Sources */,
 				105D51CBEBC6685E73BE16ED75EC4961 /* Frameworks */,
 				7435785235340ED2AF568E29ACE67692 /* Resources */,
 			);
@@ -532,24 +530,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1EED5D36AE1F20AD193C9588EA065C66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48C3027EEDA6A55E6824B15CB800D61A /* AXTools-dummy.m in Sources */,
+				2E67D4C81F9FBBD08E3C74A612E31975 /* MBProgressHUD+AGHud.m in Sources */,
+				5EC624E7E8DF284743B35C3F50040CDC /* MBSuccessView.m in Sources */,
+				2483121CFF3335EFB1A43BBFB4A9FFCE /* XXProgressHUD.m in Sources */,
+				489F276889791C1B71BFD72DAA678585 /* YICTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2AAB9E3D0AB1736202AA6A3E41EA6D47 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				17BD89B7E0B0108E4D6A7F2C603F6772 /* MBProgressHUD.m in Sources */,
 				026E11302641C22E36BD1A38C2634B02 /* MBProgressHUD-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3ECDA9A5591E1DC9DDE5C68AFB0446BA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				585686A35E21D1E9F8B9F65553F8DC76 /* AXTools-dummy.m in Sources */,
-				E38798EAC1EEC1DD419E9F87CB0D152D /* MBProgressHUD+AGHud.m in Sources */,
-				41E312949B20DA29B8715B7B4FEB0691 /* MBSuccessView.m in Sources */,
-				1294EC68E8F62D2E36EAAED738DC348B /* XXProgressHUD.m in Sources */,
-				1805698E173F071B41F56F8BE2290B66 /* YICTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -792,7 +790,7 @@
 		};
 		A2DDAB33CFE58306CFB7E4421A53A4DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62612795B072296B4E3595D8D05E0941 /* AXTools.debug.xcconfig */;
+			baseConfigurationReference = EDB74374E14CD9FA06EF4200E649A0FC /* AXTools.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -822,7 +820,7 @@
 		};
 		A5977A7E6869FA4090EE8FEE444FB7AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1D197613499CDCC26E50E40C313C65A4 /* AXTools.release.xcconfig */;
+			baseConfigurationReference = DFAF0BA2C620129C7C7BAFD720ABC8CF /* AXTools.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

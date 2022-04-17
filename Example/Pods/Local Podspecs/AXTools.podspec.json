@@ -1,6 +1,6 @@
 {
   "name": "AXTools",
-  "version": "0.6",
+  "version": "0.7",
   "summary": "一些常用组件 AXTools",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wq95230/AXTools",
@@ -13,18 +13,22 @@
   },
   "source": {
     "git": "https://github.com/wq95230/AXTools.git",
-    "tag": "0.6"
+    "tag": "0.7"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "AXTools/Classes/**/*",
   "public_header_files": "AXTools/Classes/AXToolsHeader.h",
   "frameworks": "UIKit",
+  "default_subspecs": [
+    "XXProgressHUD",
+    "YCTool"
+  ],
+  "source_files": "AXTools/Classes/AXToolsHeader.h",
   "subspecs": [
     {
       "name": "XXProgressHUD",
-      "source_files": "AXTools/Classes/XXProgressHUD/**/*",
+      "source_files": "AXTools/Classes/XXProgressHUD/*.{h,m}",
       "dependencies": {
         "MBProgressHUD": [
           "1.2.0"
@@ -33,7 +37,7 @@
     },
     {
       "name": "YCTool",
-      "source_files": "AXTools/Classes/YCTool/**/*"
+      "source_files": "AXTools/Classes/YCTool/*.{h,m}"
     }
   ]
 }
