@@ -10,28 +10,28 @@
 		026E11302641C22E36BD1A38C2634B02 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */; };
 		17BD89B7E0B0108E4D6A7F2C603F6772 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */; };
 		1A9423FDABD28F529506FD4E9AE42338 /* Pods-AXTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F30561E584A406364B8EC95716BAED0 /* Pods-AXTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2483121CFF3335EFB1A43BBFB4A9FFCE /* XXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */; };
+		1DF3A06D81A435368FEB7030C8535060 /* MBSuccessView.h in Headers */ = {isa = PBXBuildFile; fileRef = A6001E30F4219E5B31F34D12973DF6B2 /* MBSuccessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2483121CFF3335EFB1A43BBFB4A9FFCE /* XXProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8929CBE1DAAD240EE03686D541E4216A /* XXProgressHUD.m */; };
 		2AC562D416E040EA37BA460B1EA3E516 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		2E67D4C81F9FBBD08E3C74A612E31975 /* MBProgressHUD+AGHud.m in Sources */ = {isa = PBXBuildFile; fileRef = AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */; };
+		2E67D4C81F9FBBD08E3C74A612E31975 /* MBProgressHUD+AGHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 6103D264CCD53C3F106874FA43FE738C /* MBProgressHUD+AGHud.m */; };
 		3ABE23E963B84ADBC89381BD0EC85E41 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D38C630E74A79B11689B05E954AB64F /* XXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		489F276889791C1B71BFD72DAA678585 /* YICTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1327109B0FDCCCA413107A8D6C0B76C0 /* YICTool.m */; };
-		48C3027EEDA6A55E6824B15CB800D61A /* AXTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E1D49567D38F79FB8BE6F2EDD48A46 /* AXTools-dummy.m */; };
-		5EC624E7E8DF284743B35C3F50040CDC /* MBSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */; };
+		4122E2E191ACBF7E2DCF4A26CEBF748D /* XXProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = E8750D4650048DB72944F655A159D8B4 /* XXProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		489F276889791C1B71BFD72DAA678585 /* YICTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5713F84A7110377E8D84B6F2B482D5E2 /* YICTool.m */; };
+		48C3027EEDA6A55E6824B15CB800D61A /* AXTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B12EE119D9029E982BC69878B59B0090 /* AXTools-dummy.m */; };
+		588F4275A96DB0390AA40F0AA343F0CD /* MBProgressHUD+AGHud.h in Headers */ = {isa = PBXBuildFile; fileRef = DF305E19A0DAE537698975D36899CFE9 /* MBProgressHUD+AGHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EC624E7E8DF284743B35C3F50040CDC /* MBSuccessView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40095FF0F58BEBEC79BEC1BA49CF3A90 /* MBSuccessView.m */; };
 		5F42CBC37D647101AC042CD32874E728 /* Pods-AXTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 05D3F4AE62BF36A9D19A3CFEA6C2126E /* Pods-AXTools_Tests-dummy.m */; };
 		6DD457DBDE74C724C09F5AB3A85E50B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 		715A2A5324927FB0EF5691FA8DCBEE9A /* Pods-AXTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DA7CD3389390CDA971D73F32CEE861 /* Pods-AXTools_Example-dummy.m */; };
-		79AF9D20E691B9DE777DAE94A73A777E /* YICTool.h in Headers */ = {isa = PBXBuildFile; fileRef = B3E69258C07A668C226BE545D0D65D0E /* YICTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		763E7FC9ED3B564FD29D52FE1C609F86 /* YICTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB489B0F8B3F86C19A57E6F24E61AAF /* YICTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8FA353BC289F1643AA108EE8F17DFB2F /* Pods-AXTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C89C09DBDC465802B0811513A04192F6 /* Pods-AXTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98329E4AD77240F7CE76E31E2060670D /* AXTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2D10BE1FD026833C918BFF27E11BEA8 /* AXToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7A3A6F17A3565389D4CD7AD84E3609C /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A88763E163B12C7417C5C034D95DD346 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */; };
+		C216685B3090347B76F5E1C12743F2C3 /* AXTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DA037C46480CE4036D131BA7339D1C3 /* AXTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E00E1DB2D380390803BBE658AA1E8054 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D60AC13D33197690A05C641925DDDA /* UIKit.framework */; };
 		E01F9EAD190E3A94E27CD3561DD15ECD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
-		EC8D6C05630C8B485681DE5C47E8B621 /* MBProgressHUD+AGHud.h in Headers */ = {isa = PBXBuildFile; fileRef = 87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDF4E577EE7B0930F53328B9C6A47025 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */; };
-		FD606097D85A828BBB60D721371A0233 /* MBSuccessView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD6776D6155F123356103C65134D5247 /* AXTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 772C6F3202ABF9717201C64C5DA64F10 /* AXTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FE1C75C699935453D259FB40A3F79353 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,56 +70,56 @@
 		025A5645726043AC353FF3BE88A77CAA /* Pods-AXTools_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXTools_Example.modulemap"; sourceTree = "<group>"; };
 		04D60AC13D33197690A05C641925DDDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		05D3F4AE62BF36A9D19A3CFEA6C2126E /* Pods-AXTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXTools_Tests-dummy.m"; sourceTree = "<group>"; };
-		0E26A7507B4086C3EB1BA4FE92EEE877 /* AXTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-prefix.pch"; sourceTree = "<group>"; };
+		0E60A7AF3FC796C31DEDA097190EC012 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0F75DEFE886EDBF866371088D5353D2E /* AXTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.release.xcconfig; sourceTree = "<group>"; };
+		0FB489B0F8B3F86C19A57E6F24E61AAF /* YICTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YICTool.h; path = AXTools/Classes/YCTool/YICTool.h; sourceTree = "<group>"; };
 		12A7E56D3DFF8E8800FA6F8A494C155B /* Pods-AXTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		1327109B0FDCCCA413107A8D6C0B76C0 /* YICTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YICTool.m; path = AXTools/Classes/YCTool/YICTool.m; sourceTree = "<group>"; };
-		17E1D49567D38F79FB8BE6F2EDD48A46 /* AXTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXTools-dummy.m"; sourceTree = "<group>"; };
-		373FAD0E27C93253C0D1EC8F6916AC50 /* AXTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXTools.modulemap; sourceTree = "<group>"; };
+		338F7741B2CC0C32413607CFC089451D /* AXTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.debug.xcconfig; sourceTree = "<group>"; };
+		38936841FFF61ECC78385588C68E0537 /* AXTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXTools-Info.plist"; sourceTree = "<group>"; };
 		3937ABFA9EADDC38EAED48F133DC830B /* Pods-AXTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSuccessView.h; path = AXTools/Classes/XXProgressHUD/MBSuccessView.h; sourceTree = "<group>"; };
+		40095FF0F58BEBEC79BEC1BA49CF3A90 /* MBSuccessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSuccessView.m; path = AXTools/Classes/XXProgressHUD/MBSuccessView.m; sourceTree = "<group>"; };
 		4316DE03C341E6FA193E2AB2BA2FF6BF /* Pods-AXTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4ECF19F2C17178E7145FE1DBF7DE5B7D /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		53025FD44EEDEB9CEAE854B0AE31CB82 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		5713F84A7110377E8D84B6F2B482D5E2 /* YICTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YICTool.m; path = AXTools/Classes/YCTool/YICTool.m; sourceTree = "<group>"; };
+		5DA037C46480CE4036D131BA7339D1C3 /* AXTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXTools.h; path = AXTools/Classes/AXTools.h; sourceTree = "<group>"; };
 		5E221A5AAC45302AF396416395265FFD /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
 		5F31C808188F0318B8D5A16F065156F9 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		6103D264CCD53C3F106874FA43FE738C /* MBProgressHUD+AGHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+AGHud.m"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.m"; sourceTree = "<group>"; };
 		613BB840AEAD1F74B482C2FD9E5B4F5D /* Pods-AXTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Example-Info.plist"; sourceTree = "<group>"; };
 		67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		6CEB62E30C5BAB8D4A2A435A4D4DA33A /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		71586C258C9A4BA21A453C698866EBC7 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		7450133A67F75B32674006C48D80A8E5 /* Pods-AXTools_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AXTools_Example"; path = Pods_AXTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DA7CD3389390CDA971D73F32CEE861 /* Pods-AXTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AXTools_Example-dummy.m"; sourceTree = "<group>"; };
+		772C6F3202ABF9717201C64C5DA64F10 /* AXTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-umbrella.h"; sourceTree = "<group>"; };
 		79CF7D56C5D50C18B2EA0ED106D998C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7E3D9C6A20B0F90C865CA9F1EB8B549F /* Pods-AXTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7F30561E584A406364B8EC95716BAED0 /* Pods-AXTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXTools_Example-umbrella.h"; sourceTree = "<group>"; };
 		840FA0B75AF62912A30DDC66B647ED98 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXProgressHUD.m; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.m; sourceTree = "<group>"; };
-		87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+AGHud.h"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.h"; sourceTree = "<group>"; };
-		8B8B9CFF8D54FC2C581DA6FD23F5B948 /* AXTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AXTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8929CBE1DAAD240EE03686D541E4216A /* XXProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XXProgressHUD.m; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.m; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AXToolsHeader.h; path = AXTools/Classes/AXToolsHeader.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EE31DF0B787424228EFCFCBF516B450 /* Pods-AXTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AXTools_Tests.modulemap"; sourceTree = "<group>"; };
 		A42DBD2F42D55606EEBA514009498B87 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		A4523FF62B0550E75CA21F20929D97F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A4D98E5B73860EB0517D966F08E60839 /* AXTools */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AXTools; path = AXTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6001E30F4219E5B31F34D12973DF6B2 /* MBSuccessView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MBSuccessView.h; path = AXTools/Classes/XXProgressHUD/MBSuccessView.h; sourceTree = "<group>"; };
+		A7C4379C951933B3D57AF815AF51DD4E /* AXTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-prefix.pch"; sourceTree = "<group>"; };
 		ABCFA69F882851F41B8B1EB9C4BD388C /* Pods-AXTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "MBProgressHUD+AGHud.m"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.m"; sourceTree = "<group>"; };
-		AD194F5D3882EE801A5289B646D7C792 /* AXTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AXTools-Info.plist"; sourceTree = "<group>"; };
-		B3E69258C07A668C226BE545D0D65D0E /* YICTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YICTool.h; path = AXTools/Classes/YCTool/YICTool.h; sourceTree = "<group>"; };
+		B12EE119D9029E982BC69878B59B0090 /* AXTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AXTools-dummy.m"; sourceTree = "<group>"; };
 		B8809DE5932A280FFAD7441E3E34BAA3 /* Pods-AXTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AXTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		BB5D5C9FE140985CA985937DF323D0CC /* Pods-AXTools_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-AXTools_Tests"; path = Pods_AXTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31A7A58DD693ED17C205773E30B947B /* Pods-AXTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C410BF1E4CB83FF65CB901EB02C42327 /* Pods-AXTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AXTools_Tests-Info.plist"; sourceTree = "<group>"; };
-		C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MBSuccessView.m; path = AXTools/Classes/XXProgressHUD/MBSuccessView.m; sourceTree = "<group>"; };
-		C7B660E055AA5626A24D7B7C3E45BE71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		C89C09DBDC465802B0811513A04192F6 /* Pods-AXTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AXTools_Tests-umbrella.h"; sourceTree = "<group>"; };
-		CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AXTools-umbrella.h"; sourceTree = "<group>"; };
-		CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXProgressHUD.h; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.h; sourceTree = "<group>"; };
 		CE3FAD2B8FF399B5FE18B8135CDDA7EB /* Pods-AXTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AXTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		DA20CF4B4232880863AEB2BE0DE060A5 /* Pods-AXTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AXTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DFAF0BA2C620129C7C7BAFD720ABC8CF /* AXTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.release.xcconfig; sourceTree = "<group>"; };
-		EDB74374E14CD9FA06EF4200E649A0FC /* AXTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AXTools.debug.xcconfig; sourceTree = "<group>"; };
+		DF305E19A0DAE537698975D36899CFE9 /* MBProgressHUD+AGHud.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MBProgressHUD+AGHud.h"; path = "AXTools/Classes/XXProgressHUD/MBProgressHUD+AGHud.h"; sourceTree = "<group>"; };
+		E35C32BF30302479D72167A0A73ADF5B /* AXTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AXTools.modulemap; sourceTree = "<group>"; };
+		E4BD68AD7A4A45737AB65008245E2174 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E8750D4650048DB72944F655A159D8B4 /* XXProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XXProgressHUD.h; path = AXTools/Classes/XXProgressHUD/XXProgressHUD.h; sourceTree = "<group>"; };
 		F1A0E508679ED342B4AEDF1866C001EB /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		F731C31806453BE89E1AD2759ED93D37 /* AXTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AXTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FC7C54894F0D982511B53767CE31EBF1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,29 +189,32 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		154DA901D904F8CE5264BF52884D0DD5 /* Support Files */ = {
+		1F41D467FD25E071E62C9678754ADBB1 /* XXProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				373FAD0E27C93253C0D1EC8F6916AC50 /* AXTools.modulemap */,
-				17E1D49567D38F79FB8BE6F2EDD48A46 /* AXTools-dummy.m */,
-				AD194F5D3882EE801A5289B646D7C792 /* AXTools-Info.plist */,
-				0E26A7507B4086C3EB1BA4FE92EEE877 /* AXTools-prefix.pch */,
-				CABB0AFB72D8FDC0E018ABBA09922778 /* AXTools-umbrella.h */,
-				EDB74374E14CD9FA06EF4200E649A0FC /* AXTools.debug.xcconfig */,
-				DFAF0BA2C620129C7C7BAFD720ABC8CF /* AXTools.release.xcconfig */,
+				DF305E19A0DAE537698975D36899CFE9 /* MBProgressHUD+AGHud.h */,
+				6103D264CCD53C3F106874FA43FE738C /* MBProgressHUD+AGHud.m */,
+				A6001E30F4219E5B31F34D12973DF6B2 /* MBSuccessView.h */,
+				40095FF0F58BEBEC79BEC1BA49CF3A90 /* MBSuccessView.m */,
+				E8750D4650048DB72944F655A159D8B4 /* XXProgressHUD.h */,
+				8929CBE1DAAD240EE03686D541E4216A /* XXProgressHUD.m */,
+			);
+			name = XXProgressHUD;
+			sourceTree = "<group>";
+		};
+		3B3F23C14358C7A51D45A6C5ECAF481F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E35C32BF30302479D72167A0A73ADF5B /* AXTools.modulemap */,
+				B12EE119D9029E982BC69878B59B0090 /* AXTools-dummy.m */,
+				38936841FFF61ECC78385588C68E0537 /* AXTools-Info.plist */,
+				A7C4379C951933B3D57AF815AF51DD4E /* AXTools-prefix.pch */,
+				772C6F3202ABF9717201C64C5DA64F10 /* AXTools-umbrella.h */,
+				338F7741B2CC0C32413607CFC089451D /* AXTools.debug.xcconfig */,
+				0F75DEFE886EDBF866371088D5353D2E /* AXTools.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AXTools";
-			sourceTree = "<group>";
-		};
-		370AB5D7F52CF9FA15134892054794F7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8B8B9CFF8D54FC2C581DA6FD23F5B948 /* AXTools.podspec */,
-				A4523FF62B0550E75CA21F20929D97F9 /* LICENSE */,
-				C7B660E055AA5626A24D7B7C3E45BE71 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		3F242479102E24C5847AB040CB8095A8 /* Pods */ = {
@@ -222,25 +225,35 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		4E81AA9D2AB96B954EFC0EEF5DD82DCD /* AXTools */ = {
-			isa = PBXGroup;
-			children = (
-				8C1005CD1674E98E71291025DD8EACB8 /* AXToolsHeader.h */,
-				370AB5D7F52CF9FA15134892054794F7 /* Pod */,
-				154DA901D904F8CE5264BF52884D0DD5 /* Support Files */,
-				EFC0146DB6D5841F3E93606FC18E9D18 /* XXProgressHUD */,
-				FC0385BB1B560033617DA6AA08D2EDDC /* YCTool */,
-			);
-			name = AXTools;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		781C4A396A89AD4B4A254E3B280E0E9F /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E81AA9D2AB96B954EFC0EEF5DD82DCD /* AXTools */,
+				7CE6B70CA0FE83C592AEF50566920A83 /* AXTools */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7B4E240E03674471A201033C1BCE7188 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F731C31806453BE89E1AD2759ED93D37 /* AXTools.podspec */,
+				0E60A7AF3FC796C31DEDA097190EC012 /* LICENSE */,
+				E4BD68AD7A4A45737AB65008245E2174 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7CE6B70CA0FE83C592AEF50566920A83 /* AXTools */ = {
+			isa = PBXGroup;
+			children = (
+				5DA037C46480CE4036D131BA7339D1C3 /* AXTools.h */,
+				7B4E240E03674471A201033C1BCE7188 /* Pod */,
+				3B3F23C14358C7A51D45A6C5ECAF481F /* Support Files */,
+				1F41D467FD25E071E62C9678754ADBB1 /* XXProgressHUD */,
+				A9C34C6D46FCFB1C4A4AF4268394A7F1 /* YCTool */,
+			);
+			name = AXTools;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DA15A24060A7C02AA2887C73FB2018D /* MBProgressHUD */ = {
@@ -250,7 +263,17 @@
 				67C8787AEF5F8F4CCDD782A64D078427 /* MBProgressHUD.m */,
 				C86A493F744575B77BC85AB9B143DAC2 /* Support Files */,
 			);
+			name = MBProgressHUD;
 			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		A9C34C6D46FCFB1C4A4AF4268394A7F1 /* YCTool */ = {
+			isa = PBXGroup;
+			children = (
+				0FB489B0F8B3F86C19A57E6F24E61AAF /* YICTool.h */,
+				5713F84A7110377E8D84B6F2B482D5E2 /* YICTool.m */,
+			);
+			name = YCTool;
 			sourceTree = "<group>";
 		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
@@ -314,19 +337,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		EFC0146DB6D5841F3E93606FC18E9D18 /* XXProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				CDB3EB898949A8D1959BF9CD483FEFE0 /* XXProgressHUD.h */,
-				854D5D313B58D7C9EA47133164CA6C14 /* XXProgressHUD.m */,
-				87277084EF66884FE2DF2F51AB353587 /* MBProgressHUD+AGHud.h */,
-				AC827522EC864C908EB08CDF0C75732E /* MBProgressHUD+AGHud.m */,
-				3B221123900FA6797A4E781642DC451A /* MBSuccessView.h */,
-				C715936F70EDCAEFD39D8657E67A541B /* MBSuccessView.m */,
-			);
-			name = XXProgressHUD;
-			sourceTree = "<group>";
-		};
 		F9D206BABE81E6BF0B9B23880B238CC7 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -336,15 +346,6 @@
 				04D60AC13D33197690A05C641925DDDA /* UIKit.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		FC0385BB1B560033617DA6AA08D2EDDC /* YCTool */ = {
-			isa = PBXGroup;
-			children = (
-				B3E69258C07A668C226BE545D0D65D0E /* YICTool.h */,
-				1327109B0FDCCCA413107A8D6C0B76C0 /* YICTool.m */,
-			);
-			name = YCTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -358,25 +359,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		105B542D9A40CC56E1C63741373F9874 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				98329E4AD77240F7CE76E31E2060670D /* AXTools-umbrella.h in Headers */,
-				A2D10BE1FD026833C918BFF27E11BEA8 /* AXToolsHeader.h in Headers */,
-				EC8D6C05630C8B485681DE5C47E8B621 /* MBProgressHUD+AGHud.h in Headers */,
-				FD606097D85A828BBB60D721371A0233 /* MBSuccessView.h in Headers */,
-				3D38C630E74A79B11689B05E954AB64F /* XXProgressHUD.h in Headers */,
-				79AF9D20E691B9DE777DAE94A73A777E /* YICTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3831855E5EF5FD95684EC56579E62880 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3ABE23E963B84ADBC89381BD0EC85E41 /* MBProgressHUD.h in Headers */,
 				A7A3A6F17A3565389D4CD7AD84E3609C /* MBProgressHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74C39427F5E03BAEE5BC5C894EA153C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C216685B3090347B76F5E1C12743F2C3 /* AXTools.h in Headers */,
+				FD6776D6155F123356103C65134D5247 /* AXTools-umbrella.h in Headers */,
+				588F4275A96DB0390AA40F0AA343F0CD /* MBProgressHUD+AGHud.h in Headers */,
+				1DF3A06D81A435368FEB7030C8535060 /* MBSuccessView.h in Headers */,
+				4122E2E191ACBF7E2DCF4A26CEBF748D /* XXProgressHUD.h in Headers */,
+				763E7FC9ED3B564FD29D52FE1C609F86 /* YICTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,7 +396,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0AEF00F4D5B3B9BEC3578493D90B62 /* Build configuration list for PBXNativeTarget "AXTools" */;
 			buildPhases = (
-				105B542D9A40CC56E1C63741373F9874 /* Headers */,
+				A74C39427F5E03BAEE5BC5C894EA153C /* Headers */,
 				1EED5D36AE1F20AD193C9588EA065C66 /* Sources */,
 				105D51CBEBC6685E73BE16ED75EC4961 /* Frameworks */,
 				7435785235340ED2AF568E29ACE67692 /* Resources */,
@@ -789,7 +790,7 @@
 		};
 		A2DDAB33CFE58306CFB7E4421A53A4DB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDB74374E14CD9FA06EF4200E649A0FC /* AXTools.debug.xcconfig */;
+			baseConfigurationReference = 338F7741B2CC0C32413607CFC089451D /* AXTools.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -819,7 +820,7 @@
 		};
 		A5977A7E6869FA4090EE8FEE444FB7AC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DFAF0BA2C620129C7C7BAFD720ABC8CF /* AXTools.release.xcconfig */;
+			baseConfigurationReference = 0F75DEFE886EDBF866371088D5353D2E /* AXTools.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -936,7 +937,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

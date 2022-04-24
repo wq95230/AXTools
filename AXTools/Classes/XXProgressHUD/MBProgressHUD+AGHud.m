@@ -124,6 +124,12 @@
     [hud hideAnimated:YES afterDelay:1.5];
 }
 
++ (void)hidenHUDForView:(UIView *)view
+{
+    [MBProgressHUD hideHUDForView:view animated:NO];
+}
+
+
 + (void)dismiss
 {
     UIView *view = [[UIApplication sharedApplication].windows lastObject];

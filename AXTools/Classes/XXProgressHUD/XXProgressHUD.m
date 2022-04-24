@@ -80,9 +80,18 @@
     [MBProgressHUD ag_showSuccessWithMessage:message view:view];
 }
 
+/// 隐藏自定义view的HUD
+/// @param view view description
++ (void)hidenHUDForView:(UIView *)view
+{
+    [MBProgressHUD hidenHUDForView:view];
+}
+
 /// 关闭Hud
 + (void)dismiss
 {
     [MBProgressHUD dismiss];
 }
+
+
 @end

@@ -46,9 +46,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param view 视图
 + (void)showSuccessMessage:(nullable NSString *)message toView:(nullable UIView *)view;
 
-/// 关闭HUD
-+ (void)dismiss;
+/// 隐藏自定义view的HUD
+/// @param view view description
++ (void)hidenHUDForView:(UIView *)view;
 
+/// 关闭HUD 如果自定义了View显示 使用 hidenHUBForView
++ (void)dismiss;
 
 @end
 

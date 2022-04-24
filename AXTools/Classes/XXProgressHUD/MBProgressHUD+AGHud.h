@@ -35,6 +35,8 @@ NS_ASSUME_NONNULL_BEGIN
 + (void)ag_showSuccessWithMessage:(nullable NSString *)message
                              view:(nullable UIView *)view;
 
++ (void)hidenHUDForView:(UIView *)view;
+
 + (void)dismiss;
 
 @end
