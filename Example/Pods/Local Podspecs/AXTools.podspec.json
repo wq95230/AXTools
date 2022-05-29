@@ -1,6 +1,6 @@
 {
   "name": "AXTools",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "summary": "一些常用组件 AXTools",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wq95230/AXTools",
@@ -9,11 +9,11 @@
     "file": "LICENSE"
   },
   "authors": {
-    "952303557@qq.com": "952303557@qq.com"
+    "liujf": "952303557@qq.com"
   },
   "source": {
     "git": "https://github.com/wq95230/AXTools.git",
-    "tag": "1.0.2"
+    "tag": "1.0.3"
   },
   "platforms": {
     "ios": "9.0"

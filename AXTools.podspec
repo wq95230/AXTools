@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AXTools'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = '一些常用组件 AXTools'
 
 
@@ -11,7 +11,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/wq95230/AXTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '952303557@qq.com' => '952303557@qq.com' }
+  s.author           = { 'liujf' => '952303557@qq.com' }
   s.source           = { :git => 'https://github.com/wq95230/AXTools.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 

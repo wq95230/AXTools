@@ -1,17 +1,17 @@
 PODS:
-  - AXTools (1.0.2):
-    - AXTools/XXProgressHUD (= 1.0.2)
-    - AXTools/YCTool (= 1.0.2)
-  - AXTools/XXProgressHUD (1.0.2):
+  - AXTools (1.0.3):
+    - AXTools/XXProgressHUD (= 1.0.3)
+    - AXTools/YCTool (= 1.0.3)
+  - AXTools/XXProgressHUD (1.0.3):
     - MBProgressHUD (= 1.2.0)
-  - AXTools/YCTool (1.0.2)
+  - AXTools/YCTool (1.0.3)
   - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - AXTools (from `../`)
 
 SPEC REPOS:
-  trunk:
+  https://github.com/CocoaPods/Specs.git:
     - MBProgressHUD
 
 EXTERNAL SOURCES:
@@ -19,9 +19,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AXTools: a2a876c904814154452c80a9900e3fc1c9c6ee83
+  AXTools: 3dccb7783695e5b43741c8e5d50c47d954e7d2bc
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 50c5bfc370442650a3e5dc3a6d268a782f93c8a9
+PODFILE CHECKSUM: 74b83d9d3038728cdd7bd2ee8feda2c8738c31be
 
 COCOAPODS: 1.11.3
